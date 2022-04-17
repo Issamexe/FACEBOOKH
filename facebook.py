@@ -93,6 +93,6 @@ HAKER FACEBOOK ☠️ ''')
         password = password.strip()
         if len(password) < MIN_PASSWORD_LENGTH:
             continue
-        print("Trying password [", index, "]: ", password)
+        print(" ☠️ ☠️  password [", index, "]: ", password)
         if is_this_a_password(email, index, password):
             break
